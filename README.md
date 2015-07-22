@@ -4,7 +4,7 @@ A simple HTML `Fork me on GitLab` button:
 
 ```html
 <iframe src="http://htmlpreview.github.io/?https://raw.githubusercontent.com/AurelienLourot/fork-me-on-gitlab/master/button.html?href=https://gitlab.com/you"
-        frameborder="0" scrolling="0" width="190px" height="35px"></iframe>
+        frameborder="0" scrolling="0" width="180px" height="35px"></iframe>
 ```
 
 See
