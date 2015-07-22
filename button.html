@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come 
+         *after* these tags -->
+    <meta name="description" content="Fork me on GitLab">
+    <meta name="author" content="Aurelien Lourot">
+    <meta name="keywords" content="fork, me, on, gitlab, ribbon, button"/>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <style>
+    .btn {
+      font-weight: bold;
+      line-height: 16px;
+      padding: 8px 12px;
+
+      color: white;
+      background-color: #029acf;
+      border-color: #0287b6;
+    }
+
+    .btn:hover {
+      color: white;
+      background-color: #02749c;
+      border-color: #015a79;
+    }
+
+    .btn:active {
+      color: white;
+      background-color: #02749c;
+      border-color: #015a79;
+    }
+
+    .btn:focus {
+      color: white;
+      background-color: #02749c;
+      border-color: #015a79;
+    }
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <base target="_parent"/>
+  </head>
+  <body>
+    <script>
+      // Taken from http://stackoverflow.com/questions/11582512/how-to-get-url-parameters-with-javascript :
+      function getURLParameter(name) {
+        return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null
+      }
+      document.write('<a class="btn" href="' + getURLParameter('href')
+                     + '"><i class="fa fa-code-fork fa-fw"></i> Fork me on GitLab</a>');
+    </script>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
