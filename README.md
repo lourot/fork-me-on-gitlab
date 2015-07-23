@@ -3,7 +3,7 @@
 A simple HTML `Fork me on GitLab` button:
 
 ```html
-<iframe src="http://htmlpreview.github.io/?https://raw.githubusercontent.com/AurelienLourot/fork-me-on-gitlab/master/button.html?href=https://gitlab.com/you"
+<iframe src="http://htmlpreview.github.io/?https://github.com/AurelienLourot/fork-me-on-gitlab/master/button.html?href=https://gitlab.com/you"
         frameborder="0" scrolling="0" width="180px" height="35px"></iframe>
 ```
 
@@ -27,7 +27,7 @@ See
 ### In the corner
 
 ```html
-<iframe src="http://htmlpreview.github.io/?https://raw.githubusercontent.com/AurelienLourot/fork-me-on-gitlab/master/button.html?href=https://gitlab.com/you"
+<iframe src="http://htmlpreview.github.io/?https://github.com/AurelienLourot/fork-me-on-gitlab/master/button.html?href=https://gitlab.com/you"
         style="position: absolute; top: 15px; right: 15px;"
         frameborder="0" scrolling="0" width="180px" height="35px"></iframe>
 ```
