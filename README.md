@@ -1,5 +1,7 @@
 # fork-me-on-gitlab
 
+![Screenshot](screenshot.png "Screenshot")
+
 A simple HTML `Fork me on GitLab` button:
 
 ```html
