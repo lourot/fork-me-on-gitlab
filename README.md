@@ -10,7 +10,7 @@ A simple HTML `Fork me on GitLab` button:
 ```
 
 See
-[result](http://htmlpreview.github.io/?https://github.com/AurelienLourot/fork-me-on-gitlab/blob/master/example.html).
+[result](http://htmlpreview.github.io/?https://github.com/AurelienLourot/fork-me-on-gitlab/blob/master/example-inline.html).
 
 ## Idea
 
@@ -21,10 +21,10 @@ GitLab's fork button style.
 
 ### In the text
 
-[example.html](example.html)
+[example-inline.html](example-inline.html)
 
 See
-[result](http://htmlpreview.github.io/?https://github.com/AurelienLourot/fork-me-on-gitlab/blob/master/example.html).
+[result](http://htmlpreview.github.io/?https://github.com/AurelienLourot/fork-me-on-gitlab/blob/master/example-inline.html).
 
 ### In the corner
 
@@ -35,7 +35,7 @@ See
 ```
 
 See
-[result](http://lourot.com/).
+[result](http://htmlpreview.github.io/?https://github.com/AurelienLourot/fork-me-on-gitlab/blob/master/example-corner.html).
 
 ## Initial author
 
