@@ -39,4 +39,4 @@ See
 
 ## Initial author
 
-[Aurelien Lourot](http://lourot.com/)
+[Aurelien Lourot](https://ghuser.io/AurelienLourot)
