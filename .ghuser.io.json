@@ -1,5 +1,5 @@
 {
   "_comment": "Repo metadata for ghuser.io. See https://github.com/ghuser-io/ghuser.io/blob/master/docs/repo-settings.md",
-  "avatar_url": "https://rawgit.com/AurelienLourot/fork-me-on-gitlab/master/thirdparty/gitlab-logo-32b7918bff8d2654-512x512.png",
+  "avatar_url": "https://cdn.jsdelivr.net/gh/AurelienLourot/fork-me-on-gitlab@df6b0df47920afcdd1f15b1a73debfba21c5da4c/thirdparty/gitlab-logo-32b7918bff8d2654-512x512.png",
   "techs": ["Bootstrap"]
 }
